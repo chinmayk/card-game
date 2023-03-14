@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Context Shuffle: Voice Assistant Edition</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- <div class="logo">
+        <img src="logo.svg" alt="Context Shuffle Logo">
+      </div>         -->
+    <h1>Context Shuffle: Voice Assistant Edition</h1>
+
+    <div class="card-container">
+      <div class="card" id="activity-card">
+        <h2>Activity</h2>
+        <p id="activity"></p>
+      </div>
+
+      <div class="card" id="context-card">
+        <h2>Context</h2>
+        <p id="context"></p>
+      </div>
+
+      <div class="card" id="persona-card">
+        <h2>Persona</h2>
+        <p id="persona"></p>
+      </div>
+    </div>
+
+    <button id="new-cards-button" class="button">New Cards</button>
+
+    <label for="text-input">How should your voice assistant behave in this situation?</label>
+    <textarea id="text-input" class="text-input"></textarea>
+    <button id="submit-button" class="button">Submit</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
